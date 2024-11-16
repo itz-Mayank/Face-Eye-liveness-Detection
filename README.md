@@ -29,5 +29,8 @@
 # To Train and Extract the model Run :
 - python train.py
 
-# To predict the realtime face liveness
+# To predict the realtime face liveness Run :
 - python prediction.py
+
+# To use the model Run : 
+- python main.py
