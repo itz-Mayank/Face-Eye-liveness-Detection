@@ -80,8 +80,8 @@ def perform_audio_authentication():
     print("Listening for verbal response...")
     with sr.Microphone() as source:
         try:
-            recognizer.adjust_for_ambient_noise(source, duration=1)  # Adjust for ambient noise
-            audio = recognizer.listen(source, timeout=10)  # Listen with 10-second timeout
+            recognizer.adjust_for_ambient_noise(source, duration=2)  # Adjust for ambient noise
+            audio = recognizer.listen(source, timeout=5)  # Listen with 10-second timeout
             speech_text = recognizer.recognize_google(audio).lower()
             print(f"User said: {speech_text}")
 
