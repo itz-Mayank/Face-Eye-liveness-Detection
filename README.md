@@ -1,3 +1,6 @@
+# Model working
+### ![Red-_11_](https://github.com/user-attachments/assets/de97c576-67fe-4068-9b0c-eeb2f5772357)
+
 # Installation
 
 ## Upgrade pip (optional but recommended):
